@@ -1,0 +1,40 @@
+Configuration initiale pour réseau fluvial composé de segments.
+
+Sample size :
+1000
+
+NewBranch 2
+0 110 50 190
+50 190 100 160
+
+NewBranch 2
+0 200 60 220
+60 220 100 160
+
+NewBranch 2
+0 300 80 330
+80 330 100 160
+
+NewBranch 4
+100 160 160 160
+160 160 250 120
+250 120 340 200
+340 200 400 160
+
+NewBranch 2
+400 160 450 110
+450 110 500 150
+
+NewBranch 2
+400 160 420 330
+420 330 500 280
+
+Order 8
+0 -> 1
+0 -> 2
+0 -> 3
+1 -> 4
+2 -> 4
+3 -> 4
+4 -> 5
+4 -> 6
